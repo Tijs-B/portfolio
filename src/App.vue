@@ -16,7 +16,7 @@
 </template>
 
 <script>
-    import TypedTitle from "components/TypedTitle";
+    import TypedTitle from "./components/TypedTitle";
 
     export default {
         name: 'App',
