@@ -52,17 +52,31 @@
         margin-top: 60px;
     }
 
-    .contact a {
-        color: $primary-color;
-        text-decoration: none;
-        font-size: 1.3em;
-        line-height: 40px;
+    .contact-links {
+        a {
+            color: $primary-color;
+            text-decoration: none;
+            font-size: 1.3em;
+            line-height: 40px;
+        }
+        span:not(span:last-child)::after {
+            content: "||";
+            margin: 0 15px;
+            font-size: 1.3em;
+            line-height: 40px;
+        }
     }
 
-    .contact span:not(span:last-child)::after {
-        content: "||";
-        margin: 0 15px;
-        font-size: 1.3em;
-        line-height: 40px;
+
+    @media (max-width: 650px) {
+        .contact-links span {
+            width: 100%;
+            display: block;
+            text-align: center;
+
+            &::after {
+                display: none;
+            }
+        }
     }
 </style>
