@@ -1,5 +1,7 @@
 # My personal portfolio
 
+![github build](https://img.shields.io/github/workflow/status/Tijs-B/portfolio/Deploy%20to%20Github%20Pages)
+
 This is my personal portfolio
 
 ## Project setup
