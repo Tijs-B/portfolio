@@ -1,4 +1,6 @@
-# portfolio-vue
+# My personal portfolio
+
+This is my personal portfolio
 
 ## Project setup
 ```
