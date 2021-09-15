@@ -33,7 +33,7 @@
         font-family: "Open Sans", sans-serif;
         width: 1000px;
         max-width: 80vw;
-        margin: 80px auto 0 auto;
+        margin: 80px auto 100px auto;
         color: $primary-color;
     }
 
