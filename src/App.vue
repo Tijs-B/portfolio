@@ -1,8 +1,7 @@
 <template>
     <div id="app">
         <TypedTitle title="Tijs Bergmans"/>
-        <p>I am a Software Engineer, currently looking for an opportunity to challenge myself.
-            I'm interested in Software Engineering, Software Security and Artificial Intelligence.</p>
+        <p>I am a Software Engineer, interested in Software Architecture, Security, Systems and Artificial Intelligence.</p>
         <h2>Contact me!</h2>
         <div class="contact-links">
             <div class="contact">
